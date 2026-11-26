@@ -7,3 +7,14 @@
 .experience-layout{display:grid;grid-template-columns:1fr 1.3fr;gap:80px;margin-top:30px}.experience h2{margin:25px 0}.experience-intro{color:var(--muted);line-height:1.7;max-width:260px;font-size:14px}.timeline{border-top:1px solid var(--line)}.timeline-item{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:25px 0;border-bottom:1px solid var(--line)}.timeline-item>span{color:var(--lime);padding-top:5px}.timeline-item h3{font-size:18px;font-weight:500;margin:0 0 7px}.timeline-item p{font-size:13px;color:var(--muted);margin:0 0 10px}.timeline-item small{font-size:12px;line-height:1.7;color:#85887e}.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:45px}.skills span{border:1px solid var(--line);border-radius:30px;padding:12px 17px;color:#c6c8bd;font-size:12px}
 .contact{padding-bottom:30px}.contact-content{margin-left:22%;padding:30px 0 100px}.contact h2{font-size:clamp(44px,6vw,78px);margin:25px 0}.email-link{display:inline-block;color:var(--lime);font-size:18px;margin-top:15px;border-bottom:1px solid #d8f36a55;padding-bottom:8px}.contact-note{font-size:11px;color:var(--muted)}footer{border-top:1px solid var(--line);padding:25px 0;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:9px}
 @media(max-width:800px){.nav{height:65px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);padding:25px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.nav-links.open{display:flex}.hero{padding-top:60px;grid-template-columns:1fr;min-height:auto}.hero h1{letter-spacing:-3px}.hero-art{height:360px}.hero-bottom{padding-top:30px;font-size:8px}.section{padding:80px 5vw}.about-content,.contact-content{margin-left:0}.about-columns{grid-template-columns:1fr;gap:30px}.section-heading{align-items:flex-start;flex-direction:column;gap:20px}.project-grid{grid-template-columns:1fr;gap:35px}.project-card:nth-child(3){grid-column:auto}.experience-layout{grid-template-columns:1fr;gap:35px}.timeline-item{grid-template-columns:95px 1fr}.contact-content{padding-bottom:70px}footer{flex-wrap:wrap}footer span:last-child{display:none}}
+.hero-art {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
